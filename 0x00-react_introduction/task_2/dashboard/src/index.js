@@ -4,10 +4,10 @@ import Notifications from './Notifications';
 import App from './App';
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root.notifications'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Notifications />
   </React.StrictMode>
 );
 

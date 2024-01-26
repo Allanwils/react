@@ -23,7 +23,11 @@ function Notifications() {
         onClick={handleButtonClick}
       >
         {/* Image element */}
-        <img src={closeIcon} alt="Close" />
+        <img
+          src={closeIcon}
+          alt="Close"
+          style={{ width: '20px', height: '20px' }}
+        />
       </button>
       <p>Here is the list of notifications</p>
       <ul>
