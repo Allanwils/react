@@ -13,8 +13,8 @@ function Notifications() {
       <button
         style={{
           position: 'absolute',
-          top: 0,
-          right: 0,
+          top: 20,
+          right: 20,
           background: 'none',
           border: 'none',
           cursor: 'pointer',
@@ -32,7 +32,7 @@ function Notifications() {
       <p>Here is the list of notifications</p>
       <ul>
         <li data-priority="default">New course available</li>
-        <li data-priority="urgent">New resume available</li>
+        <li data-priority="urgent"> New resume available</li>
         <li
           data-priority="urgent"
           dangerouslySetInnerHTML={{ __html: `${getLatestNotification()}` }}

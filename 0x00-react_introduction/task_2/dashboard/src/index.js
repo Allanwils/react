@@ -7,7 +7,7 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root.notifications'));
 root.render(
   <React.StrictMode>
-    <Notifications />
+    <App />
   </React.StrictMode>
 );
 
