@@ -13,8 +13,8 @@ function Notifications() {
       <button
         style={{
           position: 'absolute',
-          top: 0,
-          right: 0,
+          top: 20,
+          right: 20,
           background: 'none',
           border: 'none',
           cursor: 'pointer',
