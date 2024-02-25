@@ -1,0 +1,30 @@
+.Notifications {
+  border: 2px dotted #e14852;
+  padding: 10px 8px 8px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.Notifications p {
+  margin-bottom: 10px;
+}
+
+.Notifications ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Notifications li {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.Notifications li[data-priority="default"] {
+  color: blue;
+}
+
+.Notifications li[data-priority="urgent"] {
+  color: red;
+}
